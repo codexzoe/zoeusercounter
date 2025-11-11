@@ -75,3 +75,7 @@ else
 - 
 ## Uyarı
 >! AuthenticationStateProvider kullanıyor User.Identity.Name bilgisiyle User alınıyor.
+
+## Uyarı (Service Eklenmeli)
+>! builder.Services.AddHttpContextAccessor();
+>! builder.Services.AddBlazorOnlineTracker();
