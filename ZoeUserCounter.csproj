@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Counter-128.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Zoe Counter</Title>
+    <Description>Blazor Server için çevrimiçi kullanıcı ve bağlantı takip kütüphanesi</Description>
+    <PackageProjectUrl>https://github.com/codexzoe/zoecounter</PackageProjectUrl>
+    <PackageIcon>Counter-128.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/codexzoe/zoecounter</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>blazor server tracker online users circuits</PackageTags>
+    <PackageReleaseNotes>online kullanıcı sayacı</PackageReleaseNotes>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Counter-128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\Counter-128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="License.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
